@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="navigationButtonStyle" format="reference"/>
+
+    <style name="Widget.Holo.Toolbar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="navigationButtonStyle">@style/Widget.Holo.Toolbar.Button.Navigation</item>
+        <item name="android:titleTextStyle">@android:style/TextAppearance.Holo.Widget.ActionMode.Title</item>
+        <item name="android:subtitleTextStyle">@android:style/TextAppearance.Holo.Widget.ActionMode.Subtitle</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+    </style>
+
+    <style name="Widget.Holo.Toolbar.Button.Navigation" parent="@android:style/Widget.Holo">
+        <!-- <item name="android:background">@*android:color/control_highlight_material</item> -->
+        <item name="android:minWidth">56dp</item>
+        <item name="android:scaleType">center</item>
+    </style>
+</resources>

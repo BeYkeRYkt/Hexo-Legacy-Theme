@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2016 The CyanogenMod Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+
+    <!-- ================================================== -->
+    <!-- MASKING (BACKPLATE, OVERLAY, MASK, SCALE)          -->
+    <!-- ================================================== -->
+
+    <iconback img1="iconback1" img2="iconback2" img3="iconback3" img4="iconback4" img5="iconback5" img6="iconback6" img7="iconback7"/>
+    <scale factor=".6"/>
+
+    <!-- ================================================== -->
+    <!-- CYNGN                                              -->
+    <!-- ================================================== -->
+
+    <item component="ComponentInfo{com.cyngn.cameranext}" drawable="cyngn_camera"/>
+    <item component="ComponentInfo{com.cyanogenmod.gallerynext}" drawable="cyngn_gallery"/>
+    <item component="ComponentInfo{org.cyanogenmod.audiofx}" drawable="system_dspmanager"/>
+    <item component="ComponentInfo{com.cyanogenmod.screencast}" drawable="cyngn_cast"/>
+    <item component="ComponentInfo{com.cyngn.screencast}" drawable="cyngn_cast"/>
+    <item component="ComponentInfo{com.cyngn.gallerynext}" drawable="cyngn_gallery"/>
+    <item component="ComponentInfo{com.cyngn.theme.store}" drawable="cyngn_themes"/>
+    <item component="ComponentInfo{org.cyanogenmod.theme.chooser}" drawable="cyngn_themes"/>
+    <item component="ComponentInfo{com.cyanogenmod.filemanager}" drawable="system_filemanager"/>
+    <item component="ComponentInfo{com.cyngn.theme.chooser}" drawable="cyngn_themes"/>
+    <item component="ComponentInfo{com.cyanogenmod.eleven}" drawable="cyngn_music"/>
+    <item component="ComponentInfo{com.cyngn.audiofx}" drawable="system_dspmanager"/>
+    <item component="ComponentInfo{com.cyngn.maxxaudio}" drawable="system_dspmanager"/>
+    <item component="ComponentInfo{com.cyngn.themestore}" drawable="cyngn_themes"/>
+    <item component="ComponentInfo{com.cyanogenmod.lockclock}" drawable="cyngn_lockclock"/>
+    <item component="ComponentInfo{com.cyngn.dialer}" drawable="system_phone"/>
+    <item component="ComponentInfo{org.cyanogenmod.gello.browser}" drawable="system_browser"/>
+
+    <!-- ================================================== -->
+    <!-- SYSTEM                                             -->
+    <!-- ================================================== -->
+
+    <item component="ComponentInfo{com.android.browser}" drawable="system_browser"/>
+    <item component="ComponentInfo{com.android.calculator2}" drawable="system_calculator"/>
+    <item component="ComponentInfo{com.android.calendar}" drawable="system_calendar"/>
+    <item component="ComponentInfo{com.android.camera}" drawable="cyngn_camera"/>
+    <item component="ComponentInfo{com.android.camera2}" drawable="cyngn_camera"/>
+    <item component="ComponentInfo{com.android.contacts}" drawable="system_contacts"/>
+    <item component="ComponentInfo{com.android.dialer}" drawable="system_phone"/>
+    <item component="ComponentInfo{com.android.deskclock}" drawable="system_clock"/>
+    <item component="ComponentInfo{com.android.email}" drawable="system_email"/>
+    <item component="ComponentInfo{com.android.gallery3d}" drawable="cyngn_gallery"/>
+    <item component="ComponentInfo{com.android.messaging}" drawable="system_messages"/>
+    <item component="ComponentInfo{com.android.mms}" drawable="system_messages"/>
+    <item component="ComponentInfo{com.android.music}" drawable="system_music"/>
+    <item component="ComponentInfo{com.android.phone}" drawable="system_phone"/>
+    <item component="ComponentInfo{com.android.providers.downloads.ui}" drawable="system_downloads"/>
+    <item component="ComponentInfo{com.android.quicksearchbox}" drawable="system_voicesearch"/>
+    <item component="ComponentInfo{com.android.settings}" drawable="system_settings"/>
+    <item component="ComponentInfo{com.android.soundrecorder}" drawable="system_soundrecorder"/>
+    <item component="ComponentInfo{com.android.videoeditor}" drawable="system_moviestudio"/>
+    <item component="ComponentInfo{com.android.voicedialer}" drawable="system_voicedialer"/>
+    <item component="ComponentInfo{com.android.stk}" drawable="system_simtoolkit"/>
+    <item component="ComponentInfo{com.android.term}" drawable="system_terminal"/>
+    <item component="ComponentInfo{com.android.terminal}" drawable="system_terminal"/>
+
+    <!-- ================================================== -->
+    <!-- PARTNER                                            -->
+    <!-- ================================================== -->
+
+    <item component="ComponentInfo{com.boxer.email}" drawable="cyngn_email"/>
+    <item component="ComponentInfo{com.boxer.calendar}" drawable="system_calendar"/>
+
+    <!-- ================================================== -->
+    <!-- GOOGLE APPS                                        -->
+    <!-- ================================================== -->
+
+    <item component="ComponentInfo{com.google.android.apps.genie.geniewidget}" drawable="google_newsandweather"/>
+    <item component="ComponentInfo{com.google.zxing.client.android}" drawable="apps_barcodescanner"/>
+    <item component="ComponentInfo{com.google.android.talk}" drawable="google_hangouts"/>
+    <item component="ComponentInfo{com.google.android.play.games}" drawable="google_playgames"/>
+    <item component="ComponentInfo{com.google.android.videoeditor}" drawable="google_filmstudio"/>
+    <item component="ComponentInfo{com.google.android.apps.googlevoice}" drawable="google_voice"/>
+    <item component="ComponentInfo{com.google.glass.companion}" drawable="google_glass"/>
+    <item component="ComponentInfo{com.quickoffice.android}" drawable="google_quickoffice"/>
+    <item component="ComponentInfo{com.android.vending}" drawable="google_play"/>
+    <item component="ComponentInfo{com.android.chrome}" drawable="google_chrome"/>
+    <item component="ComponentInfo{com.google.android.gm}" drawable="google_mail"/>
+    <item component="ComponentInfo{com.google.android.apps.plus}" drawable="google_plus"/>
+    <item component="ComponentInfo{com.google.android.apps.maps}" drawable="google_maps"/>
+    <item component="ComponentInfo{com.google.android.music}" drawable="google_playmusic"/>
+    <item component="ComponentInfo{com.google.android.videos}" drawable="google_playmovies"/>
+    <item component="ComponentInfo{com.google.android.videos}" drawable="google_playmovies"/>
+    <item component="ComponentInfo{com.google.android.apps.books}" drawable="google_playbooks"/>
+    <item component="ComponentInfo{com.google.android.apps.magazines}" drawable="google_playnewsstand"/>
+    <item component="ComponentInfo{com.google.android.apps.docs}" drawable="google_drive"/>
+    <item component="ComponentInfo{com.google.android.youtube}" drawable="google_youtube"/>
+    <item component="ComponentInfo{com.google.android.calendar}" drawable="system_calendar"/>
+    <item component="ComponentInfo{com.google.android.gms}" drawable="google_settings"/>
+    <item component="ComponentInfo{com.google.android.googlequicksearchbox}" drawable="google_search"/>
+    <item component="ComponentInfo{com.google.android.apps.walletnfcrel}" drawable="google_wallet"/>
+    <item component="ComponentInfo{com.google.android.apps.plus}" drawable="google_photos"/>
+    <item component="ComponentInfo{com.google.android.apps.chromecast.app}" drawable="google_chromecast"/>
+    <item component="ComponentInfo{com.google.earth}" drawable="google_earth"/>
+    <item component="ComponentInfo{com.google.android.GoogleCamera}" drawable="cyngn_camera"/>
+    <item component="ComponentInfo{com.google.android.apps.messaging}" drawable="system_messages"/>
+    <item component="ComponentInfo{com.chrome.beta}" drawable="google_chrome"/>
+    <item component="ComponentInfo{com.google.android.apps.docs.editors.docs}" drawable="google_docs"/>
+    <item component="ComponentInfo{com.google.android.keep}" drawable="google_keep"/>
+    <item component="ComponentInfo{com.google.android.apps.docs.editors.sheets}" drawable="google_sheets"/>
+    <item component="ComponentInfo{com.google.android.apps.docs.editors.slides}" drawable="google_slides"/>
+
+    <!-- ================================================== -->
+    <!-- AMBIENT                                            -->
+    <!-- ================================================== -->
+    <item component="ComponentInfo{com.boxer.email}" drawable="cyngn_email"/>
+
+    <!-- ================================================== -->
+    <!--           EMPTY LINE FOR COPY AND PASTE            -->
+    <!--   <item component="ComponentInfo{}" drawable=""/>  -->
+    <!-- ================================================== -->
+
+    <item component="ComponentInfo{com.cyngn.theme.store}" drawable="themesshowcase"/>
+    <item component="ComponentInfo{com.mxtech.videoplayer.ad}" drawable="videoplayer"/>
+    <item component="ComponentInfo{com.mxtech.videoplayer.pro}" drawable="videoplayer"/>
+    <item component="ComponentInfo{eu.chainfire.supersu}" drawable="supersu"/>
+</resources>

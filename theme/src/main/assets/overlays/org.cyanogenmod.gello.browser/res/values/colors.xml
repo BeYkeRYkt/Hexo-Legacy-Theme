@@ -1,0 +1,16 @@
+<resources>
+    <!-- fundamental colors -->
+    <color name="white">#fafafa</color>
+    <color name="black">#14181C</color>
+    <!-- chrome colors -->
+    <color name="icon_white">#DADADA</color>
+    <color name="icon_black">#5A5A5A</color>
+    <!-- derived colors -->
+    <color name="NavigationBarBackground">@color/black</color>
+    <color name="comboViewActionBarColor">@color/white</color>
+    <!-- derived colors -->
+    <color name="PopupBackground">@color/white</color>
+    <item type="fraction" format="fraction" name="menu_animation_pivot_x">95%</item>
+    <!-- Custom Menu dimensions -->
+    <dimen name="menu_negative_software_vertical_offset">0dp</dimen>
+</resources>

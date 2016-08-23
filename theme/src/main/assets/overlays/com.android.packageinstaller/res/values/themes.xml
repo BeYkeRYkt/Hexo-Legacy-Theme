@@ -3,6 +3,7 @@
     <style name="Settings" parent="@android:style/Theme.Holo">
         <item name="android:actionBarStyle">@style/ActionBar</item>
         <!-- <item name="android:colorControlNormal">#ffe6e6e6</item> -->
+        <item name="android:icon">@drawable/ic_settings</item>
     </style>
 
     <style name="GrantPermissions" parent="@android:style/Theme.Holo.Dialog.NoActionBar">

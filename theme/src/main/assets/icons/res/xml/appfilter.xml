@@ -21,7 +21,13 @@
     <!-- ================================================== -->
 
     <iconback img1="iconback1" img2="iconback2" img3="iconback3" img4="iconback4" img5="iconback5" img6="iconback6" img7="iconback7"/>
-    <scale factor=".6"/>
+    <scale factor=".65"/>
+    <paletteback
+        img="iconback7"
+        swatchType="muted"
+        defaultSwatchColor1="#37474f"
+        defaultSwatchColor2="#424242"
+    />
 
     <!-- ================================================== -->
     <!-- CYNGN                                              -->
@@ -44,6 +50,8 @@
     <item component="ComponentInfo{com.cyanogenmod.lockclock}" drawable="cyngn_lockclock"/>
     <item component="ComponentInfo{com.cyngn.dialer}" drawable="system_phone"/>
     <item component="ComponentInfo{org.cyanogenmod.gello.browser}" drawable="system_browser"/>
+    <item component="ComponentInfo{com.cyanogenmod.settings.device}" drawable="system_settings"/>
+    <item component="ComponentInfo{org.cyanogenmod.snap}" drawable="cyngn_camera"/>
 
     <!-- ================================================== -->
     <!-- SYSTEM                                             -->
@@ -55,6 +63,8 @@
     <item component="ComponentInfo{com.android.camera}" drawable="cyngn_camera"/>
     <item component="ComponentInfo{com.android.camera2}" drawable="cyngn_camera"/>
     <item component="ComponentInfo{com.android.contacts}" drawable="system_contacts"/>
+    <item component="ComponentInfo{com.android.contacts.common}" drawable="system_contacts"/>
+    <item component="ComponentInfo{com.android.cellbroadcastreceiver}" drawable="system_phone"/>
     <item component="ComponentInfo{com.android.dialer}" drawable="system_phone"/>
     <item component="ComponentInfo{com.android.deskclock}" drawable="system_clock"/>
     <item component="ComponentInfo{com.android.email}" drawable="system_email"/>
@@ -66,12 +76,15 @@
     <item component="ComponentInfo{com.android.providers.downloads.ui}" drawable="system_downloads"/>
     <item component="ComponentInfo{com.android.quicksearchbox}" drawable="system_voicesearch"/>
     <item component="ComponentInfo{com.android.settings}" drawable="system_settings"/>
+    <item component="ComponentInfo{com.android.packageinstaller/.permission.ui.ManagePermissionsActivity}" drawable="system_settings"/>
+    <item component="ComponentInfo{com.android.systemui/.tuner.TunerActivity$DemoModeActivity}" drawable="system_settings"/>
     <item component="ComponentInfo{com.android.soundrecorder}" drawable="system_soundrecorder"/>
     <item component="ComponentInfo{com.android.videoeditor}" drawable="system_moviestudio"/>
     <item component="ComponentInfo{com.android.voicedialer}" drawable="system_voicedialer"/>
     <item component="ComponentInfo{com.android.stk}" drawable="system_simtoolkit"/>
     <item component="ComponentInfo{com.android.term}" drawable="system_terminal"/>
     <item component="ComponentInfo{com.android.terminal}" drawable="system_terminal"/>
+    <item component="ComponentInfo{com.android.telecom}" drawable="system_phone"/>
 
     <!-- ================================================== -->
     <!-- PARTNER                                            -->
@@ -133,4 +146,8 @@
     <item component="ComponentInfo{com.mxtech.videoplayer.ad}" drawable="videoplayer"/>
     <item component="ComponentInfo{com.mxtech.videoplayer.pro}" drawable="videoplayer"/>
     <item component="ComponentInfo{eu.chainfire.supersu}" drawable="supersu"/>
+    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaShortcutHandler}" drawable="ic_allapps"/>
+    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaShortcutHandler:LAUNCHER_ACTION_APP_DRAWER}" drawable="ic_allapps"/>
+    <item component="ComponentInfo{com.teslacoilsw.launcher.prime}" drawable="nova"/>
+    <item component=":LAUNCHER_ACTION_APP_DRAWER" drawable="ic_allapps" />
 </resources>

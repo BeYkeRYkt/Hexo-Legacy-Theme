@@ -178,7 +178,8 @@
         <item name="preferenceHeaderPanelStyle">@*android:style/PreferenceHeaderPanel.Material</item>
         <item name="preferenceListStyle">@*android:style/PreferenceHeaderList.Material</item>
         <item name="preferenceFragmentListStyle">@*android:style/PreferenceFragmentList.Material</item> -->
-        <item name="preferenceFragmentPaddingSide">@*android:dimen/preference_fragment_padding_side_material</item> -->
+        <item name="preferenceFragmentPaddingSide">@*android:dimen/preference_fragment_padding_side_material</item>
+        -->
     </style>
     <style name="Theme.Material.Light.NoActionBar" parent="@android:style/Theme.Holo.Light.NoActionBar"/>
     <style name="Theme.Material.Light.NoActionBar.Fullscreen" parent="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"/>
@@ -241,7 +242,7 @@
         <item name="android:textStyle">normal</item>
     </style>
     <style name="TextAppearance.Material.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu"/>
-    <style name="Widget.Material.Notification.ProgressBar" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal" />
+    <style name="Widget.Material.Notification.ProgressBar" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"/>
 
     <!-- Settings -->
     <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.Holo"/>

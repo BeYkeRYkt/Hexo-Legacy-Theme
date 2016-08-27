@@ -149,5 +149,5 @@
     <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaShortcutHandler}" drawable="ic_allapps"/>
     <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaShortcutHandler:LAUNCHER_ACTION_APP_DRAWER}" drawable="ic_allapps"/>
     <item component="ComponentInfo{com.teslacoilsw.launcher.prime}" drawable="nova"/>
-    <item component=":LAUNCHER_ACTION_APP_DRAWER" drawable="ic_allapps" />
+    <item component=":LAUNCHER_ACTION_APP_DRAWER" drawable="ic_allapps"/>
 </resources>

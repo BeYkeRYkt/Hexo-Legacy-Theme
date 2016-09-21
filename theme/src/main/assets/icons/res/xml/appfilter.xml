@@ -41,6 +41,7 @@
     <item component="ComponentInfo{com.cyngn.gallerynext}" drawable="cyngn_gallery"/>
     <item component="ComponentInfo{com.cyngn.theme.store}" drawable="cyngn_themes"/>
     <item component="ComponentInfo{org.cyanogenmod.theme.chooser}" drawable="cyngn_themes"/>
+    <item component="ComponentInfo{org.cyanogenmod.theme.chooser2}" drawable="cyngn_themes"/>
     <item component="ComponentInfo{com.cyanogenmod.filemanager}" drawable="system_filemanager"/>
     <item component="ComponentInfo{com.cyngn.theme.chooser}" drawable="cyngn_themes"/>
     <item component="ComponentInfo{com.cyanogenmod.eleven}" drawable="cyngn_music"/>
@@ -146,8 +147,8 @@
     <item component="ComponentInfo{com.mxtech.videoplayer.ad}" drawable="videoplayer"/>
     <item component="ComponentInfo{com.mxtech.videoplayer.pro}" drawable="videoplayer"/>
     <item component="ComponentInfo{eu.chainfire.supersu}" drawable="supersu"/>
-    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaShortcutHandler}" drawable="ic_allapps"/>
-    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaShortcutHandler:LAUNCHER_ACTION_APP_DRAWER}" drawable="ic_allapps"/>
+    <!-- <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaShortcutHandler}" drawable="ic_allapps"/>
+    <item component="ComponentInfo{com.teslacoilsw.launcher/com.teslacoilsw.launcher.NovaShortcutHandler:LAUNCHER_ACTION_APP_DRAWER}" drawable="ic_allapps"/> -->
     <item component="ComponentInfo{com.teslacoilsw.launcher.prime}" drawable="nova"/>
     <item component=":LAUNCHER_ACTION_APP_DRAWER" drawable="ic_allapps"/>
 </resources>

@@ -88,10 +88,10 @@
         <item name="android:textAllCaps">true</item>
     </style>
     <style name="TextAppearance.CategoryTitle" parent="@style/TextAppearance.Small">
-    <item name="android:textColor">@color/category_text_color</item>
-    <item name="android:textStyle">bold</item>
-    <item name="android:textAllCaps">true</item>
-</style>
+        <item name="android:textColor">@color/category_text_color</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
     <style name="TextAppearance.TileTitle" parent="@style/TextAppearance.Medium"/>
     <style name="TextAppearance.TileSubTitle" parent="@style/TextAppearance.Small"/>
     <style name="TextAppearance.RemoveDialogContent" parent="@android:style/TextAppearance.Holo"/>

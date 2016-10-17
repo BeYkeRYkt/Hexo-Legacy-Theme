@@ -18,8 +18,8 @@
           package="ru.beykerykt.theme.hexolegacy">
 
     <uses-feature
-        android:required="true"
-        android:name="org.cyanogenmod.theme"/>
+        android:name="org.cyanogenmod.theme"
+        android:required="true"/>
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -38,6 +38,13 @@
     <application
         android:hasCode="false"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/theme_name"/>
-
+        android:label="@string/theme_name">
+        <activity
+            android:name=".NovaActivity"
+            android:theme="@android:style/Theme.Holo.Light">
+            <intent-filter>
+                <action android:name="com.novalauncher.THEME"/>
+            </intent-filter>
+        </activity>
+    </application>
 </manifest>

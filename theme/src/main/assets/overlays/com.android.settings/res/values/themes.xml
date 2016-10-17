@@ -6,11 +6,6 @@
     <!--BASE-->
     <style name="Theme.SettingsBase" parent="@android:style/Theme.Holo">
         <item name="android:actionBarStyle">@style/Theme.ActionBar</item>
-        <item name="@*android:preferencePanelStyle">@style/PreferencePanelSinglePane</item>
-        <item name="@*android:preferenceListStyle">@style/PreferenceHeaderListSinglePane</item>
-        <item name="@*android:preferenceFragmentListStyle">@style/PreferenceFragmentListSinglePane</item>
-        <item name="@*android:preferenceFragmentStyle">@style/PreferenceFragmentStyle</item>
-
         <item name="ic_wps">@drawable/ic_wps_dark</item>
 
         <item name="switchBarTheme">@style/Theme.SwitchBar.SubSettings</item>

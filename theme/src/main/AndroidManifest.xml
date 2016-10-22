@@ -39,12 +39,5 @@
         android:hasCode="false"
         android:icon="@drawable/ic_launcher"
         android:label="@string/theme_name">
-        <activity
-            android:name=".NovaActivity"
-            android:theme="@android:style/Theme.Holo.Light">
-            <intent-filter>
-                <action android:name="com.novalauncher.THEME"/>
-            </intent-filter>
-        </activity>
     </application>
 </manifest>

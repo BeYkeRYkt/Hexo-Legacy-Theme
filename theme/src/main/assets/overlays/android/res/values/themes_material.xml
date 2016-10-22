@@ -173,12 +173,12 @@
     <style name="Theme.Material.Settings.BaseDialog" parent="@*android:style/Theme.Holo.Dialog">
     </style>
 
-    <style name="Theme.Material.Settings.Dialog" parent="Theme.Material.Settings.BaseDialog" />
+    <style name="Theme.Material.Settings.Dialog" parent="Theme.Material.Settings.BaseDialog"/>
 
     <style name="Theme.Material.Settings.Dialog.BaseAlert" parent="@*android:style/Theme.Holo.Dialog.BaseAlert">
     </style>
 
-    <style name="Theme.Material.Settings.Dialog.Alert" parent="Theme.Material.Settings.Dialog.BaseAlert" />
+    <style name="Theme.Material.Settings.Dialog.Alert" parent="Theme.Material.Settings.Dialog.BaseAlert"/>
 
     <style name="Theme.Material.Settings.DialogWhenLarge" parent="@*android:style/Theme.Holo.DialogWhenLarge">
     </style>

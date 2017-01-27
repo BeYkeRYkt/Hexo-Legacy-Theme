@@ -2,12 +2,12 @@
 <familyset version="22">
     <!-- first font is default -->
     <family name="sans-serif">
-        <font weight="400" style="normal">Lato-Regular.ttf</font>
-        <font weight="400" style="italic">Lato-Italic.ttf</font>
         <font weight="100" style="normal">Lato-Thin.ttf</font>
         <font weight="100" style="italic">Lato-ThinItalic.ttf</font>
         <font weight="300" style="normal">Lato-Light.ttf</font>
         <font weight="300" style="italic">Lato-LightItalic.ttf</font>
+        <font weight="400" style="normal">Lato-Regular.ttf</font>
+        <font weight="400" style="italic">Lato-Italic.ttf</font>
         <font weight="500" style="normal">Lato-Medium.ttf</font>
         <font weight="500" style="italic">Lato-MediumItalic.ttf</font>
         <font weight="900" style="normal">Lato-Black.ttf</font>
@@ -27,9 +27,103 @@
     <alias name="verdana" to="sans-serif"/>
 
     <family name="sans-serif-condensed">
-        <font weight="400" style="normal">LatoSRegCon.ttf</font>
-        <font weight="400" style="italic">LatoSRegConIta.ttf</font>
-        <font weight="700" style="normal">LatoSBolCon.ttf</font>
-        <font weight="700" style="italic">LatoSBolConIta.ttf</font>
+        <font weight="400" style="normal">LatoUI-BCondRegular.ttf</font>
+        <font weight="400" style="italic">LatoUI-BCondItalic.ttf</font>
+        <font weight="700" style="normal">LatoUI-BCondBold.ttf</font>
+        <font weight="700" style="italic">LatoUI-BCondBoldItalic.ttf</font>
+    </family>
+
+    <!-- From Holo Theme -->
+    <alias name="sans-serif-condensed-light" to="sans-serif-condensed" weight="300"/>
+
+    <family name="serif">
+        <font weight="400" style="normal">DroidSerif-Regular.ttf</font>
+        <font weight="700" style="normal">DroidSerif-Bold.ttf</font>
+        <font weight="400" style="italic">DroidSerif-Italic.ttf</font>
+        <font weight="700" style="italic">DroidSerif-BoldItalic.ttf</font>
+    </family>
+    <alias name="times" to="serif"/>
+    <alias name="times new roman" to="serif"/>
+    <alias name="palatino" to="serif"/>
+    <alias name="georgia" to="serif"/>
+    <alias name="baskerville" to="serif"/>
+    <alias name="goudy" to="serif"/>
+    <alias name="fantasy" to="serif"/>
+    <alias name="ITC Stone Serif" to="serif"/>
+
+    <family name="monospace">
+        <font weight="400" style="normal">DroidSansMono.ttf</font>
+    </family>
+    <alias name="sans-serif-monospace" to="monospace"/>
+    <alias name="monaco" to="monospace"/>
+
+    <family name="serif-monospace">
+        <font weight="400" style="normal">DroidSansMono.ttf</font>
+    </family>
+    <alias name="courier" to="serif-monospace"/>
+    <alias name="courier new" to="serif-monospace"/>
+
+    <family name="casual">
+        <font weight="400" style="normal">DroidSans.ttf</font>
+    </family>
+
+    <family name="cursive">
+        <font weight="400" style="normal">DroidSerif-Regular.ttf</font>
+        <font weight="700" style="normal">DroidSerif-Bold.ttf</font>
+        <font weight="400" style="italic">DroidSerif-Italic.ttf</font>
+        <font weight="700" style="italic">DroidSerif-BoldItalic.ttf</font>
+    </family>
+
+    <family name="sans-serif-smallcaps">
+        <font weight="400" style="normal">Lato-Regular.ttf</font>
+    </family>
+
+    <!-- From old hexo -->
+    <family>
+        <nameset>
+            <name>sans-serif</name>
+            <name>arial</name>
+            <name>helvetica</name>
+            <name>tahoma</name>
+            <name>verdana</name>
+        </nameset>
+        <fileset>
+            <file>Lato-Regular.ttf</file>
+            <file>Lato-Bold.ttf</file>
+            <file>Lato-Italic.ttf</file>
+            <file>Lato-BoldItalic.ttf</file>
+        </fileset>
+    </family>
+
+    <family>
+        <nameset>
+            <name>sans-serif-light</name>
+        </nameset>
+        <fileset>
+            <file>Lato-Light.ttf</file>
+            <file>Lato-LightItalic.ttf</file>
+        </fileset>
+    </family>
+
+    <family>
+        <nameset>
+            <name>sans-serif-thin</name>
+        </nameset>
+        <fileset>
+            <file>Lato-Thin.ttf</file>
+            <file>Lato-ThinItalic.ttf</file>
+        </fileset>
+    </family>
+
+    <family>
+        <nameset>
+            <name>sans-serif-condensed</name>
+        </nameset>
+        <fileset>
+            <file>LatoUI-BCondRegular.ttf</file>
+            <file>LatoUI-BCondBold.ttf</file>
+            <file>LatoUI-BCondItalic.ttf</file>
+            <file>LatoUI-BCondBoldItalic.ttf</file>
+        </fileset>
     </family>
 </familyset>

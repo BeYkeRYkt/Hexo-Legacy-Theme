@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- <style name="Theme.Holo" parent="@android:style/Theme.Holo">
+        <item name="android:colorAccent">@color/theme_accent</item>
+        <item name="android:windowClipToOutline">true</item>
+
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowEnterTransition">@android:transition/fade</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+        <item name="android:windowContentTransitions">false</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="windowActionBarFullscreenDecorLayout">@*android:layout/screen_toolbar</item>
+
+        <item name="android:toolbarStyle">@style/Widget.Holo.Toolbar</item>
+
+        <item name="colorSwitchThumbNormal">@*android:color/switch_thumb_material_dark</item>
+
+        <item name="preferencePanelStyle">@style/PreferencePanel.Material</item>
+        <item name="preferenceHeaderPanelStyle">@style/PreferenceHeaderPanel.Material</item>
+        <item name="preferenceListStyle">@style/PreferenceHeaderList.Material</item>
+        <item name="preferenceFragmentListStyle">@style/PreferenceFragmentList.Material</item>
+        <item name="preferenceFragmentPaddingSide">@*android:dimen/preference_fragment_padding_side_material</item>
+    </style>
+
+    <style name="Theme.Holo.Light" parent="@android:style/Theme.Holo.Light">
+        <item name="android:colorAccent">@color/theme_accent</item>
+        <item name="android:windowClipToOutline">true</item>
+
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowEnterTransition">@android:transition/fade</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+        <item name="android:windowContentTransitions">false</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="windowActionBarFullscreenDecorLayout">@*android:layout/screen_toolbar</item>
+
+        <item name="android:toolbarStyle">@style/Widget.Holo.Toolbar</item>
+
+        <item name="colorSwitchThumbNormal">@*android:color/switch_thumb_material_dark</item>
+
+        <item name="preferencePanelStyle">@style/PreferencePanel.Material</item>
+        <item name="preferenceHeaderPanelStyle">@style/PreferenceHeaderPanel.Material</item>
+        <item name="preferenceListStyle">@style/PreferenceHeaderList.Material</item>
+        <item name="preferenceFragmentListStyle">@style/PreferenceFragmentList.Material</item>
+        <item name="preferenceFragmentPaddingSide">@*android:dimen/preference_fragment_padding_side_material</item>
+    </style> -->
+</resources>

@@ -7,8 +7,7 @@
     <!-- Dark Device -->
     <style name="Theme.Material" parent="@style/HoloTheme">
         <item name="android:colorAccent">@color/theme_accent</item>
-        <item name="android:textAppearanceListItem">?android:attr/textAppearanceMedium</item>
-        <item name="android:windowBackground">?android:attr/colorBackground</item>
+
         <item name="android:windowClipToOutline">true</item>
 
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
@@ -19,15 +18,12 @@
         <item name="android:windowActivityTransitions">true</item>
         <item name="windowActionBarFullscreenDecorLayout">@*android:layout/screen_toolbar</item>
 
-        <item name="android:toolbarStyle">@style/Widget.Holo.Toolbar</item>
-
-        <item name="colorSwitchThumbNormal">@*android:color/switch_thumb_material_dark</item>
-
-        <!-- <item name="preferencePanelStyle">@*android:style/PreferencePanel.Material</item>
-        <item name="preferenceHeaderPanelStyle">@*android:style/PreferenceHeaderPanel.Material</item>
-        <item name="preferenceListStyle">@*android:style/PreferenceHeaderList.Material</item>
-        <item name="preferenceFragmentListStyle">@*android:style/PreferenceFragmentList.Material</item> -->
+        <!-- <item name="preferencePanelStyle">@style/PreferencePanel.Material</item>
+        <item name="preferenceHeaderPanelStyle">@style/PreferenceHeaderPanel.Material</item>
+        <item name="preferenceListStyle">@style/PreferenceHeaderList.Material</item>
+        <item name="preferenceFragmentListStyle">@style/PreferenceFragmentList.Material</item>
         <item name="preferenceFragmentPaddingSide">@*android:dimen/preference_fragment_padding_side_material</item>
+        <item name="preferenceFrameLayoutStyle">@style/Widget.Material.PreferenceFrameLayout</item> -->
     </style>
     <style name="Theme.Material.NoActionBar" parent="@android:style/Theme.Holo.NoActionBar"/>
     <style name="Theme.Material.NoActionBar.Fullscreen" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen"/>
@@ -38,7 +34,8 @@
     <style name="Theme.Material.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.Holo.DialogWhenLarge.NoActionBar"/>
     <style name="Theme.Material.DarkActionBar" parent="@android:style/Theme.Holo"/>
 
-    <style name="Theme.Material.Dialog" parent="@*android:style/Theme.Holo.Dialog"/>
+    <style name="Theme.Material.BaseDialog" parent="@*android:style/Theme.Holo.Dialog"/>
+    <style name="Theme.Material.Dialog" parent="@style/Theme.Material.BaseDialog"/>
     <style name="Theme.Material.Dialog.MinWidth" parent="@android:style/Theme.Holo.Dialog.MinWidth"/>
     <style name="Theme.Material.Dialog.NoActionBar" parent="@android:style/Theme.Holo.Dialog.NoActionBar"/>
     <style name="Theme.Material.Dialog.NoActionBar.MinWidth" parent="@android:style/Theme.Holo.Dialog.NoActionBar.MinWidth"/>
@@ -58,8 +55,13 @@
     <!-- Light Device -->
     <style name="Theme.Material.Light" parent="@android:style/Theme.Holo.Light">
         <item name="android:colorAccent">@color/theme_accent</item>
-        <item name="android:textAppearanceListItem">?android:attr/textAppearanceMedium</item>
-        <item name="android:windowBackground">?android:attr/colorBackground</item>
+        <!-- <item name="preferencePanelStyle">@style/PreferencePanel.Material</item>
+        <item name="preferenceHeaderPanelStyle">@style/PreferenceHeaderPanel.Material</item>
+        <item name="preferenceListStyle">@style/PreferenceHeaderList.Material</item>
+        <item name="preferenceFragmentListStyle">@style/PreferenceFragmentList.Material</item>
+        <item name="preferenceFragmentPaddingSide">@*android:dimen/preference_fragment_padding_side_material</item>
+        <item name="preferenceFrameLayoutStyle">@style/Widget.Material.PreferenceFrameLayout</item> -->
+
         <item name="android:windowClipToOutline">true</item>
 
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
@@ -69,17 +71,6 @@
         <item name="android:windowContentTransitions">false</item>
         <item name="android:windowActivityTransitions">true</item>
         <item name="windowActionBarFullscreenDecorLayout">@*android:layout/screen_toolbar</item>
-
-        <item name="android:toolbarStyle">@style/Widget.Holo.Toolbar</item>
-
-        <item name="colorSwitchThumbNormal">@*android:color/switch_thumb_material_dark</item>
-
-        <!-- <item name="preferencePanelStyle">@*android:style/PreferencePanel.Material</item>
-        <item name="preferenceHeaderPanelStyle">@*android:style/PreferenceHeaderPanel.Material</item>
-        <item name="preferenceListStyle">@*android:style/PreferenceHeaderList.Material</item>
-        <item name="preferenceFragmentListStyle">@*android:style/PreferenceFragmentList.Material</item> -->
-        <item name="preferenceFragmentPaddingSide">@*android:dimen/preference_fragment_padding_side_material</item>
-        -->
     </style>
     <style name="Theme.Material.Light.NoActionBar" parent="@android:style/Theme.Holo.Light.NoActionBar"/>
     <style name="Theme.Material.Light.NoActionBar.Fullscreen" parent="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"/>
@@ -90,7 +81,8 @@
     <style name="Theme.Material.Light.DialogWhenLarge.NoActionBar" parent="@android:style/Theme.Holo.Light.DialogWhenLarge.NoActionBar"/>
     <style name="Theme.Material.Light.DarkActionBar" parent="@android:style/Theme.Holo"/>
 
-    <style name="Theme.Material.Light.Dialog" parent="@*android:style/Theme.Holo.Light.Dialog"/>
+    <style name="Theme.Material.Light.BaseDialog" parent="@*android:style/Theme.Holo.Light.Dialog"/>
+    <style name="Theme.Material.Light.Dialog" parent="@style/Theme.Material.Light.BaseDialog"/>
     <style name="Theme.Material.Light.Dialog.MinWidth" parent="@android:style/Theme.Holo.Light.Dialog.MinWidth"/>
     <style name="Theme.Material.Light.Dialog.NoActionBar" parent="@android:style/Theme.Holo.Light.Dialog.NoActionBar"/>
     <style name="Theme.Material.Light.Dialog.NoActionBar.MinWidth" parent="@android:style/Theme.Holo.Light.Dialog.NoActionBar.MinWidth"/>
@@ -146,8 +138,16 @@
     <style name="Widget.Material.Notification.ProgressBar" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"/>
 
     <!-- Settings Material -->
+    <attr name="panelMenuListTheme" format="reference" />
+    <attr name="presentationTheme" format="reference" />
+    <attr name="searchDialogTheme" format="reference" />
+
     <style name="Theme.Material.Settings" parent="@android:style/Theme.Holo">
         <item name="android:actionBarStyle">@android:style/Widget.Holo.ActionBar.Solid</item>
+
+        <item name="presentationTheme">@style/Theme.Material.Settings.Dialog.Presentation</item>
+        <item name="searchDialogTheme">@style/Theme.Material.Settings.SearchBar</item>
+        <item name="panelMenuListTheme">@style/Theme.Material.Settings.CompactMenu</item>
     </style>
     <style name="Theme.Material.Settings.CompactMenu" parent="@*android:style/Theme.Holo.CompactMenu"/>
     <style name="Theme.Material.Settings.BaseDialog" parent="@style/Theme.DeviceDefault.Dialog"/>
@@ -157,9 +157,9 @@
 
     <!-- Default theme for Settings and activities launched from Settings. -->
     <style name="Theme.Material.Settings.NoActionBar" parent="@*android:style/Theme.Holo.NoActionBar">
-        <!-- <item name="android:presentationTheme">@style/Theme.Material.Settings.Dialog.Presentation</item>
-        <item name="android:searchDialogTheme">@style/Theme.Material.Settings.SearchBar</item>
-        <item name="android:panelMenuListTheme">@style/Theme.Material.Settings.CompactMenu</item> -->
+        <item name="presentationTheme">@style/Theme.Material.Settings.Dialog.Presentation</item>
+        <item name="searchDialogTheme">@style/Theme.Material.Settings.SearchBar</item>
+        <item name="panelMenuListTheme">@style/Theme.Material.Settings.CompactMenu</item>
     </style>
     <style name="Theme.Material.Settings.BaseDialog" parent="@*android:style/Theme.Holo.Dialog">
     </style>

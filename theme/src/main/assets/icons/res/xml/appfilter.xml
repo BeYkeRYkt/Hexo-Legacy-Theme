@@ -147,4 +147,5 @@
     <item component="ComponentInfo{com.mxtech.videoplayer.pro}" drawable="videoplayer"/>
     <item component="ComponentInfo{eu.chainfire.supersu}" drawable="supersu"/>
     <item component="ComponentInfo{com.teslacoilsw.launcher.prime}" drawable="nova"/>
+    <item component="ComponentInfo{ru.beykerykt.theme.hexolegacy}" drawable="hexolegacy"/>
 </resources>

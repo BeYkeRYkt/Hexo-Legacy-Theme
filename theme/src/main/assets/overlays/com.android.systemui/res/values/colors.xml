@@ -9,7 +9,7 @@
     <color name="qs_title_text_color">@*android:color/holo_primary</color>
 
     <color name="system_primary_color">#ff161616</color>
-    <color name="system_primary_notification_color">#ff181818</color>
+    <color name="system_primary_notification_color">#99000000</color> <!-- #ff181818 -->
     <color name="system_notification_header_bg">#ff000000</color>
 
     <color name="system_accent_color">@*android:color/holo_blue_light</color>
@@ -54,5 +54,4 @@
 
     <!-- Navigation button ripple color -->
     <color name="navbutton_ripple_color">@*android:color/holo_primary</color>
-
 </resources>

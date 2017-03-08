@@ -27,6 +27,9 @@ easier.
 ===============================================================
  -->
 <resources>
+    <style name="DeviceDefault" parent="@*android:style/Theme.Holo"/>
+    <style name="DeviceDefault.Light" parent="@*android:style/Theme.Holo.Light"/>
+
     <!-- Widget Styles -->
     <style name="Widget.DeviceDefault" parent="@*android:Widget.Holo"/>
     <style name="Widget.DeviceDefault.Button" parent="@*android:Widget.Holo.Button"/>

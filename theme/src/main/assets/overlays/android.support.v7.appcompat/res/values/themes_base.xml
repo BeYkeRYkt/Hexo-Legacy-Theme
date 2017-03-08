@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    Theme in the "Platform.AppCompat" family are designed to be aliases for the default
+    theme on a given platform version and should set up the default theme ready for adding our
+    unbundled Action Bar.
+-->
+    <eat-comment/>
+    <style name="Platform.AppCompat" parent="@android:style/Theme.Holo">
+    </style>
+
+    <style name="Platform.AppCompat.Light" parent="@android:style/Theme.Holo.Light">
+    </style>
+
+    <!-- Themes in the "Base.Theme" family vary based on the current platform
+         version to provide the correct basis on each device. You probably don't
+         want to use them directly in your apps.
+         Themes in the "Theme.AppCompat" family are meant to be extended or used
+         directly by apps. -->
+    <eat-comment/>
+
+    <!-- Base platform-dependent theme providing an action bar in a dark-themed activity. -->
+    <style name="Base.V7.Theme.AppCompat" parent="Platform.AppCompat">
+    </style>
+
+    <!-- Base platform-dependent theme providing an action bar in a light-themed activity. -->
+    <style name="Base.V7.Theme.AppCompat.Light" parent="Platform.AppCompat.Light">
+    </style>
+
+    <style name="Base.Theme.AppCompat" parent="Base.V7.Theme.AppCompat">
+    </style>
+
+    <style name="Base.Theme.AppCompat.Light" parent="Base.V7.Theme.AppCompat.Light">
+    </style>
+
+    <style name="Base.Theme.AppCompat.Light.DarkActionBar" parent="Base.Theme.AppCompat.Light">
+    </style>
+
+    <!-- Menu/item attributes -->
+    <style name="Base.Theme.AppCompat.CompactMenu" parent="@*android:style/Theme.Holo.CompactMenu">
+    </style>
+
+    <style name="Base.V7.Theme.AppCompat.Dialog" parent="@android:style/Theme.Holo.Dialog">
+    </style>
+
+    <style name="Base.V7.Theme.AppCompat.Light.Dialog" parent="@android:style/Theme.Holo.Light.Dialog">
+    </style>
+
+    <style name="Base.Theme.AppCompat.Dialog" parent="Base.V7.Theme.AppCompat.Dialog"/>
+    <style name="Base.Theme.AppCompat.Light.Dialog" parent="Base.V7.Theme.AppCompat.Light.Dialog"/>
+
+    <style name="Base.Theme.AppCompat.Dialog.Alert" parent="@*android:style/Theme.Holo.Dialog.Alert">
+    </style>
+
+    <style name="Base.Theme.AppCompat.Light.Dialog.Alert" parent="@*android:style/Theme.Holo.Light.Dialog.Alert">
+    </style>
+
+    <style name="Base.Theme.AppCompat.Dialog.MinWidth" parent="@android:style/Theme.Holo.Dialog.MinWidth">
+    </style>
+
+    <style name="Base.Theme.AppCompat.Light.Dialog.MinWidth" parent="@android:style/Theme.Holo.Light.Dialog.MinWidth">
+    </style>
+
+    <style name="Base.Theme.AppCompat.Dialog.FixedSize" parent="@*android:style/Theme.Holo.Dialog.FixedSize">
+    </style>
+
+    <style name="Base.Theme.AppCompat.Light.Dialog.FixedSize" parent="@*android:style/Theme.Holo.Light.Dialog.FixedSize">
+    </style>
+
+    <!-- We're not large, so redirect to Theme.AppCompat -->
+    <style name="Base.Theme.AppCompat.DialogWhenLarge" parent="@android:style/Theme.Holo.DialogWhenLarge"/>
+
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge" parent="@android:style/Theme.Holo.Light.DialogWhenLarge"/>
+
+    <!-- Overlay themes -->
+    <style name="Platform.ThemeOverlay.AppCompat" parent=""/>
+
+    <style name="Base.ThemeOverlay.AppCompat" parent="Platform.ThemeOverlay.AppCompat"/>
+
+    <style name="Platform.ThemeOverlay.AppCompat.Dark">
+    </style>
+
+    <style name="Platform.ThemeOverlay.AppCompat.Light">
+    </style>
+
+    <style name="Base.ThemeOverlay.AppCompat.Light" parent="Platform.ThemeOverlay.AppCompat.Light">
+    </style>
+
+    <style name="Base.ThemeOverlay.AppCompat.Dark" parent="Platform.ThemeOverlay.AppCompat.Dark">
+    </style>
+
+    <style name="Base.ThemeOverlay.AppCompat.ActionBar">
+    </style>
+
+    <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar">
+    </style>
+</resources>

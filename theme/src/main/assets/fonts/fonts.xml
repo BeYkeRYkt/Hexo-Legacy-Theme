@@ -126,4 +126,54 @@
             <file>LatoUI-BCondBoldItalic.ttf</file>
         </fileset>
     </family>
+
+    <family>
+        <nameset>
+            <name>sans-serif-medium</name>
+        </nameset>
+        <fileset>
+            <file>Lato-Medium.ttf</file>
+            <file>Lato-MediumItalic.ttf</file>
+        </fileset>
+    </family>
+
+    <family>
+        <nameset>
+            <name>sans-serif-black</name>
+        </nameset>
+        <fileset>
+            <file>Lato-Black.ttf</file>
+            <file>Lato-BlackItalic.ttf</file>
+        </fileset>
+    </family>
+
+    <family>
+        <nameset>
+            <name>sans-serif-condensed-light</name>
+        </nameset>
+        <fileset>
+            <file>LatoUI-BCondRegular.ttf</file>
+            <file>LatoUI-BCondItalic.ttf</file>
+        </fileset>
+    </family>
+
+    <family>
+        <nameset>
+            <name>serif</name>
+            <name>times</name>
+            <name>times new roman</name>
+            <name>palatino</name>
+            <name>georgia</name>
+            <name>baskerville</name>
+            <name>goudy</name>
+            <name>fantasy</name>
+            <name>ITC Stone Serif</name>
+        </nameset>
+        <fileset>
+            <file>DroidSerif-Regular.ttf</file>
+            <file>DroidSerif-Bold.ttf</file>
+            <file>DroidSerif-Italic.ttf</file>
+            <file>DroidSerif-BoldItalic.ttf</file>
+        </fileset>
+    </family>
 </familyset>
